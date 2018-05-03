@@ -1,0 +1,34 @@
+TODO Documentation
+
+Create user:
+POST : /users
+ex:
+this is the firstname,this is the lastname
+
+Remove user:
+DELETE: /users/{userId}
+
+Get all users:
+GET: /users
+
+Get a user:
+GET: /users/{userId}
+
+============== TODO resource ===================
+
+Create TODO:
+POST: /users/{userId}/todos
+ex:
+this is the description,this is a priority
+
+Remove TODO:
+DELETE: /users/{userId}/todos/{todoId}
+
+Get all TODOs with priority for user:
+GET: /users/{userId}/todos?priority={priority}
+
+Get a users todos:
+GET: /users/{userId}/todos
+
+Get all TODOs:
+GET: /users/{userId}/todos?getAll=true
